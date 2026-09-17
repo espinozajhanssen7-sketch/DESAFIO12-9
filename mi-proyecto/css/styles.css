@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+    color: #202936;
+    line-height: 1.6;
+}
+
+header,
+nav,
+main,
+footer {
+    width: 90%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #172b4d;
+    color: white;
+    padding: 50px 8%;
+    margin-top: 30px;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2.4em;
+}
+
+header p {
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 15px 3%;
+    border-bottom: 3px solid #4f8a8b;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 8px 5px;
+    color: #172b4d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4f8a8b;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 35px 6%;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+section h2 {
+    color: #172b4d;
+    font-size: 1.9em;
+    border-bottom: 3px solid #4f8a8b;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+article h3 {
+    color: #315c70;
+    font-size: 1.3em;
+}
+
+article p {
+    max-width: 850px;
+}
+
+figure {
+    margin: 25px 0;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #59636e;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#galeria figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin: 1%;
+}
+
+#galeria img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#galeria figcaption {
+    background-color: #eef2f3;
+    padding: 10px;
+}
+
+#puntos-clave ul {
+    padding-left: 25px;
+}
+
+#puntos-clave li {
+    margin-bottom: 12px;
+}
+
+#citas article {
+    background-color: #eef2f3;
+    border-left: 5px solid #4f8a8b;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #374151;
+}
+
+#conclusion {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #172b4d;
+    color: white;
+    padding: 30px 8%;
+    margin-bottom: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
